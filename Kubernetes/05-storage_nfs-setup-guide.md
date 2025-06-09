@@ -75,3 +75,16 @@ spec:
       persistentVolumeClaim:
         claimName: nfs-pvc
 
+✅ Commands to Try
+
+kubectl apply -f pv-pvc-example.yaml
+kubectl get pv,pvc
+kubectl describe pvc nfs-pvc
+
+📌 Pro Tips
+
+Use ReadWriteMany for shared storage (NFS, GlusterFS).
+Use persistentVolumeReclaimPolicy: Retain to avoid auto-deletion.
+For dynamic provisioning, install a CSI driver (like NFS-CSI or hostpath-provisioner).
+
+
