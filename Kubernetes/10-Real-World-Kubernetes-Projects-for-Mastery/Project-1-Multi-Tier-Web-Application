@@ -1,0 +1,14 @@
+✅ Project 1: Multi-Tier Web Application (Nginx + Flask + PostgreSQL)
+Skills: Workloads, Services, PVCs, ConfigMaps, Secrets
+
+projects/
+└── 01-webapp/
+    ├── nginx-deployment.yaml
+    ├── flask-app-deployment.yaml
+    ├── postgres-deployment.yaml
+    ├── postgres-pvc.yaml
+    ├── configmap-db.yaml
+    ├── secret-db.yaml
+    ├── service-webapp.yaml
+    └── ingress.yaml
+📌 Objective: Deploy a full-stack web app with internal database, secure configs, ingress, and persistence.
