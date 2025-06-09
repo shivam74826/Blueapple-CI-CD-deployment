@@ -1,0 +1,64 @@
+kubernetes-admin-tutorial/
+│
+├── README.md                         # Overview of tutorial
+│
+├── 00-introduction/
+│   └── introduction.md
+│
+├── 01-setup/
+│   ├── minikube-setup.md
+│   ├── kubeadm-setup.md
+│   └── hetzner-setup.md
+│
+├── 02-kubectl-core-resources/
+│   ├── kubectl-commands.md
+│   ├── pod-deployment.yaml
+│   └── namespace-config.yaml
+│
+├── 03-scheduling/
+│   ├── taints-tolerations.md
+│   └── node-affinity.yaml
+│
+├── 04-networking/
+│   ├── networking-overview.md
+│   ├── service-types.yaml
+│   └── ingress-example.yaml
+│
+├── 05-storage/
+│   ├── pv-pvc-example.yaml
+│   └── nfs-setup-guide.md
+│
+├── 06-controllers/
+│   ├── deployment.yaml
+│   ├── statefulset.yaml
+│   └── cronjob.yaml
+│
+├── 07-security-rbac/
+│   ├── rbac-role.yaml
+│   └── pod-security.md
+│
+├── 08-monitoring-logging/
+│   ├── prometheus-setup.md
+│   ├── grafana-dashboard.json
+│   └── probes.yaml
+│
+├── 09-upgrades-maintenance/
+│   ├── etcd-backup.md
+│   └── node-drain.md
+│
+├── 10-helm/
+│   ├── helm-intro.md
+│   └── nginx-chart-values.yaml
+│
+├── 11-gitops-cicd/
+│   ├── argocd-setup.md
+│   ├── github-actions-k8s.yaml
+│   └── jenkins-pipeline.groovy
+│
+├── 12-advanced-topics/
+│   ├── crd-example.yaml
+│   └── istio-install.md
+│
+└── 13-cka-exam-guide/
+    ├── cka-tips.md
+    └── cka-practice-questions.md
